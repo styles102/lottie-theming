@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <div className={cn('flex flex-col place-content-center')}>
+      <div className={cn('flex flex-col place-content-center h-svh')}>
         <div className={cn('grid grid-cols-12 gap-6')}>
           <div className={cn('col-span-full md:col-start-6 md:col-span-2')}>
             <Select onValueChange={(value) => setLottieTheme(value)}>
