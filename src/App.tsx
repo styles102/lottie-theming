@@ -78,7 +78,7 @@ function App() {
                 </div>
               </div>
             ): (
-              <h3 className={cn('text-5xl')}>Animation Complete</h3>
+              <h3 className={cn('text-5xl')}>Animations Complete</h3>
             )}
           </div>
         </div>
